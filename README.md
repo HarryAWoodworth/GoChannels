@@ -1,0 +1,2 @@
+# GoChannels
+The goal of this assignment is to parallelize reading data out of multiple files into a shared data structure using only channels for communication, while at the same time running queries against the data that has been read out so far. The driver file, emerging.go, has been provided in the assignment package. It depends on a file, cmap.go, which you must provide in this assignment. Queries can be of the basic GetCount to retrieve the number of times a word has been read across all files so far, or using a more complex Reduce call.
